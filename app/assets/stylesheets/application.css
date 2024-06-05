@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+.body {
+background-color: #959595;
+
+}
+.banner {
+  background-image: url("https://cdn.sanity.io/images/v48q37k7/production/d09208183125ab47493d5de2f8710b6faa27d7cc-3000x2000.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-infos {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.map {
+  height: 400px;
+  overflow: hidden;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+}

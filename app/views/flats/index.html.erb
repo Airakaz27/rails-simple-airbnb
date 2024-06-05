@@ -1,0 +1,9 @@
+<div class="container mt-5">
+  <h1>All our Flats</h1>
+  <p>All our <%= @flats.count %> flats</p>
+  <div class="d-flex flex-wrap gap-5" id="flats">
+    <% @flats.each do |flat| %>
+      <%= render flat %>
+    <% end %>
+  </div>
+</div>
